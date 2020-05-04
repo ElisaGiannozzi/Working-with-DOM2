@@ -37,7 +37,7 @@ let playlist = [
 
 let output = '<ol>'; 
 for (let i = 0; i < playlist.length; i++) {
-    output += '<li>' + playlist[i].author + ',' + playlist[i].song + '</li>'; 
+    output += '<li>' + playlist[i].author + ', ' + playlist[i].song + '</li>'; 
 };
 
 output += '</ol>'; 
