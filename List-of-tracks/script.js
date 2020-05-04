@@ -1,6 +1,6 @@
 //Create an HTML page that displays an ordered list of tracks to the webpage using Document Object Model API.
 
-let playList = [
+let playlist = [
     {
      author: "LED ZEPPELIN",
      song:"STAIRWAY TO HEAVEN"
@@ -34,3 +34,12 @@ let playList = [
      song:"ENTER SANDMAN"
     }
 ];
+
+let output = '<ol>'; 
+for (let i = 0; i < playlist.length; i++) {
+    output += '<li>' + playlist[i].author + ',' + playlist[i].song + '</li>'; 
+};
+
+output += '</ol>'; 
+document.getElementById('list').innerHTML = output; 
+
