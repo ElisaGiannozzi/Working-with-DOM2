@@ -13,3 +13,27 @@
     border-radius: 100%;  
 }
 
+.button {
+    font-size: 16px; 
+    font-family: Arial; 
+    border: none; 
+    border-radius: 10px; 
+    height: 50px; 
+}
+
+.button:hover {
+    cursor: pointer; 
+    background-color: grey; 
+}
+
+.first-light.on {
+    background-color: green; 
+}
+
+.second-light.on {
+    background-color: yellow; 
+}
+
+.third-light.on {
+    background-color: red; 
+}
